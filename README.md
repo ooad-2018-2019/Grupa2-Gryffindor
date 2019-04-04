@@ -47,7 +47,7 @@ klikova pronađu svog najbolje prijatelja, knjigu.
 
 * Pregled kataloga i mogućnost pretrage neregistrovanim korisnicima
 
-* Prijava na postojeći račun korištenjem imena i šifre
+* Prijava na postojeći račun korištenjem e-maila i šifre
 
 * Pregled vlastitog korisničkog računa
 
@@ -68,4 +68,4 @@ klikova pronađu svog najbolje prijatelja, knjigu.
 
 * Administrator - osoba sa najvišim nivoom privilegija koja održava i ažurira sistem
 
-* Gost - neregistrovani kupac koji ima mogućnost pregleda kataloga i pretrage
+* Gost - neregistrovani kupac koji ima mogućnost pregleda kataloga i pretrage te registracije
