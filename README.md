@@ -23,29 +23,31 @@ klikova pronađu svog najbolje prijatelja, knjigu.
 # Procesi 
 
 
-* Korisnik kreira račun unoseći ime i prezime, korisničko ime, e-mail adresu i šifru, pri čemu je obavezno da korisničko ime bude jedinstveno (u slucaju da korisničko ime već postoji, neophodno je unijeti novo).
+* Kupac kreira račun unoseći ime i prezime, e-mail adresu, šifru, grad i adresu stanovanja te broj telefona.
 
-* Korisnik ima mogućnost uređivanja svog profila na sljedeći način: 
-  * Može promijeniti korisničko ime, šifru i e-mail adresu 
+* Kupac ima mogućnost uređivanja svog profila na sljedeći način: 
+  * Može promijeniti šifru, ime i prezime
   * Može ukloniti knjigu/e sa spiska željenih knjiga
-  * Može obrisati svoj profil
  
-* Korisnik ima mogućnost pretrage po kategoriji, autoru, nazivu i cijeni knjige.
+* Kupac ima mogućnost pretrage po kategoriji, autoru, nazivu i cijeni knjige.
 
-* Korisnik na 5 kupljenih knjiga ima određeni popust, sezonski popust kao i popust uz određene praznike.
+* Kupac na količinu od 5 kupljenih knjiga ima 15% popusta na ukupnu cijenu.
 
-* Svaki korisnik prilikom kupovine knjige unosi podatke o gradu, adresi stanovanja, poštanskom kodu, broju telefona, načinu plaćanja 
-(pri čemu ima izbor na plaćanje prilikom preuzimanja ili kartično plaćanje). Ako korisnik odabere kartično plaćanje unosi informacije o vrsti i broju kartice kojom plaća. 
+* Svaki kupac prilikom kupovine vrši narudžbu željene knjige pri čemu mu se ista isporučuje.
 
-* Korisniku je omogućeno pravljenje liste željenih knjiga. Ukoliko korisnik pronađe knjigu koja mu se dopada, a ne želi je odmah kupiti ima mogućnost staviti je na vlastitu listu željenih knjiga.
+* Kupcu je omogućeno pravljenje liste željenih knjiga. Ukoliko korisnik pronađe knjigu koja mu se dopada, a ne želi je odmah kupiti ima mogućnost staviti je na vlastitu listu željenih knjiga.
 
-* Ukoliko je neka od knjiga sa liste željenih knjiga korisnika na sniženju, korisnik putem e-maila dobija obavijest o sniženju cijene.
+* Administratoru je omogućeno mijenjanje cijene i količine knjiga, kao i dodavanje te brisanje novih/postojećih naslova.
+
+* Gost kao neregistrovani kupac ima mogućnost pretrage i pregleda kataloga knjiga.
 
 # Funkcionalnosti
 
 * Kreiranje i ažuriranje korisničkog računa
 
-* Prijava na postojeći račun korištenjem korisničkog imena i šifre
+* Pregled kataloga i mogućnost pretrage neregistrovanim korisnicima
+
+* Prijava na postojeći račun korištenjem imena i šifre
 
 * Pregled vlastitog korisničkog računa
 
@@ -55,15 +57,15 @@ klikova pronađu svog najbolje prijatelja, knjigu.
 
 * Mogućnost dodavanja/brisanja knjiga na listu želja
 
-* Mogućnost online naručivanja i plaćanja knjiga
+* Mogućnost online kupovine knjiga
 
-* Upravljanje korisnicima i aplikacijom od strane administratora koji ima mogućnost brisanja korisničkih računa kao i uređivanja dostupnih proizvoda 
+* Upravljanje aplikacijom od strane administratora koji ima mogućnost uređivanja dostupnih proizvoda 
 
 
 # Akteri
 
-* Korisnik - osoba koja ima mogućnost kreiranja vlastitog računa, pravljenja spiska i narudžbe željenih knjiga, kao i online kupovine 
+* Kupac - registovana osoba koja ima mogućnost ažuriranja vlastitog računa, pravljenja spiska željenih knjiga, kao i online kupovine 
 
-* Administrator - osoba sa najvišim nivoom privilegija koja održava sistem
+* Administrator - osoba sa najvišim nivoom privilegija koja održava i ažurira sistem
 
-* Dostavljač - osoba koja dostavlja narudžbu
+* Gost - neregistrovani kupac koji ima mogućnost pregleda kataloga i pretrage
