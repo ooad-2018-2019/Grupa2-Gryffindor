@@ -71,7 +71,7 @@
 											"top": 285,
 											"width": 52.0126953125,
 											"height": 13,
-											"text": "Korisnik"
+											"text": "Kupac"
 										},
 										{
 											"_type": "LabelView",
@@ -2527,7 +2527,7 @@
 											"top": 203.5,
 											"width": 92,
 											"height": 13,
-											"text": "Korisničko ime"
+											"text": "E-mail adresa"
 										},
 										{
 											"_type": "LabelView",
@@ -2560,7 +2560,7 @@
 									"font": "Arial;13;0",
 									"left": 621.5,
 									"top": 196.5,
-									"width": 103.1962890625,
+									"width": 102,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFp3W9mLNHiBsk="
@@ -2789,7 +2789,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Korisnik",
+					"name": "Kupac",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",
@@ -2982,7 +2982,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Korisničko ime",
+					"name": "E-mail adresa",
 					"ownedElements": [
 						{
 							"_type": "UMLInclude",
