@@ -29,7 +29,7 @@ klikova pronađu svog najbolje prijatelja, knjigu.
   * Može promijeniti šifru, ime i prezime
   * Može ukloniti knjigu/e sa spiska željenih knjiga
  
-* Kupac ima mogućnost pretrage po kategoriji, autoru, nazivu i cijeni knjige.
+* Kupac ima mogućnost pretrage po autoru, nazivu i cijeni knjige.
 
 * Kupac na količinu od 5 kupljenih knjiga ima 15% popusta na ukupnu cijenu.
 
