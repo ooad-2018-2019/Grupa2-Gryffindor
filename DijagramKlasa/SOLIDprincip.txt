@@ -1,0 +1,19 @@
+1. Single Responsibility Principle: zahtijeva da svaka klasa ima samo jednu odgovornost, odnosno da klasa
+vrši samo jedan tip akcija kako ne bi ovisila o prevelikom broju konkretnih
+implementacija.
+2. Open/Closed Principle: zahtijeva da klasa koja koristi neku drugu klasu ne treba biti modificirana
+pri uvodenju novih funkcionalnosti, ili pri potrebi za mijenjanjem druge klase.
+3. Liskov Substitution Principle: zahtijeva da nasljedivanje bude ispravno implementirano, odnosno da je na
+svim mjestima na kojima se koristi osnovni objekat moguce iskoristiti i izvedeni
+objekat bez ikakvih problema
+4. Interface Segregation Principle: Bzahtijeva da i svi interface objekti zadovoljavaju princip S, odnosno da
+svaki interface obavlja samo jednu vrstu akcija. Razlog za ovo je što se kompleksnost
+razumijevanja koda drasticno povecava ukoliko se u jednom interface-u nalaze
+metode za razlicite klase koje obavljaju razlicite vrste akcija, posebno u slucaju kad je
+potrebno vršiti izmjene. Definisanjem više razlicitih interface-a lokaliziraju se moguce
+greške te povecava preglednost koda i pronalazak mjesta na kojem se potencijalna
+greška nalazi.
+5. Dependency Inversion Principle: zahtijeva da pri nasljedivanju od strane više klasa bazna klasa uvijek bude
+apstraktna (ovo je posebno važno pri nasljedivanju kada su u pitanju interface-i).
+Razlog za ovo je što je teško koordinisati veliki broj naslijedenih klasa i konkretnu
+baznu klasu, a da kod bude citak i jednostavan za razumijevanje.

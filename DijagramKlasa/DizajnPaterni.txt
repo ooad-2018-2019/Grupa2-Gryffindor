@@ -1,0 +1,14 @@
+PROXY PATTERN - Strukturni pattern
+-Proxy pattern služi za dodatno osiguravanje objekata od pogrešne ili zlonamjerne upotrebe.
+Primjenom ovog patterna omogucava se kontrola pristupa objektima, te se onemogucava
+manipulacija objektima ukoliko neki uslov nije ispunjen, odnosno ukoliko korisnik nema prava
+pristupa traženom objektu.
+U našem projektu ovaj patter se koristi kod pristupa bazi podataka.
+Samo administrator ima pristup bazi i mijenjanje cijene, broja knjiga te dodavanje i brisanje knjiga
+pa zbog toga se uvodi klasa Proxy koja provjerava nivo pristupa koji ima osoba koja želi pristupiti i mijenjati bazu.
+
+SINGLETON PATTERN - Kreacijski pattern
+Uloga Singleton paterna je da osigura da se klasa može instancirati samo jednom, da su svi zahtjevi upuceni 
+jednom objektu i da osigura globalni pristup kreiranoj instanci klase.
+U našem projektu možemo da napravimo jednu instancu klase DreamBook koja ce osigurati 
+globalni pristup kreiranoj instanci klase.
