@@ -1,7 +1,8 @@
-1. Single Responsibility Principle: zahtijeva da svaka klasa ima samo jednu odgovornost, odnosno da klasa
+﻿1. Single Responsibility Principle: zahtijeva da svaka klasa ima samo jednu odgovornost, odnosno da klasa
 vrši samo jedan tip akcija kako ne bi ovisila o prevelikom broju konkretnih
 implementacija.
--Princip ispunjen.Sve klase imaju samo jedan tip akcije.
+-Princip nije ispunjen.Klasa Profil vrši više različitih akcija. Da bi ovaj princip bio ispunjen treba za svaku 
+akciju napraviti novu klasu u kojoj će se vršiti samo ta jedna akcija te u tom slučaju bi ovaj prncip bio ispunjen.
 2. Open/Closed Principle: zahtijeva da klasa koja koristi neku drugu klasu ne treba biti modificirana
 pri uvodenju novih funkcionalnosti, ili pri potrebi za mijenjanjem druge klase.
 -Ni jedna klasa ne krši ovaj princip tako da je i on ispunjen.
