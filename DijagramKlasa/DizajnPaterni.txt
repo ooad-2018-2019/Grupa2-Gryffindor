@@ -1,4 +1,4 @@
-PROXY PATTERN - Strukturni pattern
+﻿PROXY PATTERN - Strukturni pattern
 -Proxy pattern služi za dodatno osiguravanje objekata od pogrešne ili zlonamjerne upotrebe.
 Primjenom ovog patterna omogucava se kontrola pristupa objektima, te se onemogucava
 manipulacija objektima ukoliko neki uslov nije ispunjen, odnosno ukoliko korisnik nema prava
@@ -13,3 +13,10 @@ Uloga Singleton paterna je da osigura da se klasa može instancirati samo jednom
 jednom objektu i da osigura globalni pristup kreiranoj instanci klase.
 U našem projektu možemo da napravimo jednu instancu klase DreamBook koja ce osigurati 
 globalni pristup kreiranoj instanci klase.
+
+ITERATOR PATTERN - Patter ponašanja
+Važno je da je da kolekcija podataka omogući pristup i prolazak svojim elementima
+bez izlaganja unutarnje strukture. To omogućava iterator koji na sebe preuzima brigu o tome koji
+element je trenutni, sljedeći i/ili prethodni element u listi.
+U našem projektu u klasi Profil imamo listu knjiga koje kupac želi da kupi. Za tu listu napravimo iterator 
+koji nam vodi brigu o trenutnom, sljedećem i prethodnom elementu liste.
