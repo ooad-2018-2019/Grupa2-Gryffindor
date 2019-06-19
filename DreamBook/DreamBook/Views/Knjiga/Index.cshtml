@@ -1,0 +1,79 @@
+﻿@model IEnumerable<DreamBook.Models.Knjiga>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta content="hr-ba" http-equiv="Content-Language" />
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+</head>
+
+<body>
+
+
+    <div class="">
+        <form asp-action="Trazi">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <img alt="" height="141" src="http://annapolispride.org/wp-content/uploads/2019/04/rainbow-book-375x250.jpg" width="198" /><strong>
+                <span class="auto-style1">
+                    &nbsp;&nbsp;
+                    Pretraga&nbsp;
+                </span>
+            </strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input name="Text1" style="width: 504px; height: 44px" type="text" />
+            <input type="submit" value="Traži" class="btn btn-primary" />
+
+        </form>
+    </div>
+    <div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Naslov)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Autor)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Cijena)
+                    </th>
+
+
+                </tr>
+            </thead>
+            <tbody>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Naslov)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Autor)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Cijena)
+                        </td>
+                        <td>
+                            <a asp-action="ListaZelja" asp-route-id="@item.ID">Dodaj u listu želja</a> |
+                            <a asp-action="DodajNarudzbu" asp-route-id="@item.ID">Dodaj u korpu</a>
+
+                        </td>
+
+
+                    </tr>
+
+                }
+            </tbody>
+        </table>
+    </div>
+
+</body>
+
+</html>
